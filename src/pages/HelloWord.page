@@ -1,0 +1,5 @@
+<apex:page controller="LodInController">
+    <h1>Hello World</h1>
+    <h>This is my first page</h>
+    <apex:pageBlock title="Page Block"></apex:pageBlock>
+</apex:page>

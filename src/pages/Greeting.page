@@ -1,0 +1,7 @@
+<apex:page docType="html-5.0" controller="Greeting_Contriller">
+    <apex:form >
+        <apex:input type="number" value="{!counter}" title="Counter" />
+        <apex:input type="text" value="{!name}" title="Name" />
+        <apex:commandButton action="{!saveCounter}" value="Save" />
+    </apex:form>
+</apex:page>
