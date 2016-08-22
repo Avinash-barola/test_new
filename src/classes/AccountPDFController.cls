@@ -7,7 +7,7 @@ public class AccountPDFController {
        studentId= System.currentPageReference().getParameters().get('id');
        student = [SELECT First_Name__c,Name,Age__c,Email__c,Married__c,Wife_Name__c,Sex__c FROM Student__c where Student__c.Id =:studentID];
    }
-   
+   //its a test procedure......
    public PageReference savePdf() {
        PageReference pdf = Page.PDF;
        pdf.getParameters().put('Id', student.Id);

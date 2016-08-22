@@ -25,6 +25,7 @@ public with sharing class AccountWithFilterAndPaginationController {
         return (List<Account>)setCon.getRecords();
         
     }
+    //again new test
     public String getQuery() {
         String queryString = 'select Id,Name,BillingCountry,BillingState,BillingCity from Account ';
         Boolean isConditionBlank = false;
